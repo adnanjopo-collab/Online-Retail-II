@@ -121,6 +121,10 @@ Aiven provides a managed cloud MySQL instance, simulating the real world scenari
                       │ Country    │
                       │ OrderStatus│
                       └────────────┘
+> **Note:** Calendar_Lookup was built directly in Power BI using DAX 
+> (ADDCOLUMNS + CALENDAR function) rather than MySQL, 
+> as date intelligence tables are commonly managed at the BI layer.
+
 ```
 
 ### Tables Created
