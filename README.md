@@ -39,8 +39,8 @@ The goal was not just to build a dashboard, but to simulate the exact workflow a
 | Layer | Tool |
 |-------|------|
 | Data Cleaning & Validation | Python (Pandas) |
-| Cloud Database | MySQL on Aiven Console |
-| Data Modeling | Star Schema (MySQL Workbench) |
+| Cloud Database | MySQL on Aiven, Table Design & Data Loading |
+| Data Modeling | Star Schema (Power BI Data Model) |
 | Business Intelligence | Microsoft Power BI |
 | Version Control | GitHub |
 
