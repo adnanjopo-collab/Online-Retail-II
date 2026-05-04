@@ -245,7 +245,6 @@ Online-Retail-II/
 **Adnan Mustafa**
 Data Analyst
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/adnan-mustafa-jopo-7bb710231)
 
 ---
 
