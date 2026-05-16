@@ -189,6 +189,10 @@ Weekend Orders = CALCULATE([Total Orders], Calendar_Lookup[Weekend] = "Weekend")
   clean for day-to-day use. This feature was built using Power BI 
   Bookmarks and Selection pane, a technique commonly used in 
   professional BI reporting.
+
+ ### Project File Security & Intellectual Property Note
+- The original Power BI (`.pbix`) file has been uploaded inside the `powerbi/` directory as a password-protected ZIP file to safeguard the analytical design, complex DAX architectures, and prevent unauthorized distribution.
+- **For Hiring Managers & Recruiters:** If you are a recruiter or hiring manager interested in evaluating the data schema, dimensional modeling, and the backend DAX calculations, please send a direct message on **[LinkedIn](https://www.linkedin.com/in/adnan-mustafa-jopo/)** to request the extraction password. I will provide it immediately upon verification.
 ---
 
 ##  Key Insights & Recommendations
@@ -220,10 +224,11 @@ Online-Retail-II/
 │
 ├── 📂 assets/
 │   ├── dashboard_overview.png       # Overview page screenshot
+│   ├── dashboard_insights.png       # Insights page screenshot
 │   └── dashboard_deepdive.png       # Deep Dive page screenshot
 │
 ├── 📂 powerbi/
-│   └── Online_Retail_II.pbix        # Power BI file
+│   └── Online_Retail_II.zip        # Password-protected Power BI project file
 │
 └── README.md
 ```
@@ -235,9 +240,9 @@ Online-Retail-II/
 1. Download the dataset from [Kaggle — Online Retail II](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 2. Run `python/online_retail_II.ipynb` for data cleaning
 3. Set up a MySQL database and run `sql/star_schema.sql`
-4. Open `powerbi/Online_Retail_II.pbix` and update the MySQL connection string
-5. Refresh the data and explore the dashboard
-
+4. Reach out to the author on LinkedIn to request the secure ZIP password.
+5. Extract the `Online_Retail_II_Dashboard.zip` file inside the `powerbi/` directory.
+6. Open the extracted `.pbix` file in Power BI Desktop to comprehensively inspect the interactive business intelligence pipeline and measures.
 ---
 
 ##  Author
